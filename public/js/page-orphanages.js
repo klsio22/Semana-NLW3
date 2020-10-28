@@ -20,7 +20,7 @@ const popup = L.popup({
   minWidth: 240,
   minHeigth: 240,
 }).setContent(
-  'Lar das meninas <a href= "orphaneges.html?id=1" class = "choose-orphanage"> <img src ="./public/img/arrow-white.svg"></a>'
+  'Lar das meninas <a href= "orphanege.html?id=1" class = "choose-orphanage"> <img src ="./public/img/arrow-white.svg"></a>'
 );
 
 //create and add maker
