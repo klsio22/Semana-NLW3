@@ -1,0 +1,127 @@
+#page-orphanage {
+  display: flex;
+  min-height: 100vh;
+}
+
+aside.sidebar {
+  position: fixed;
+  height: 100%;
+  padding: 32px 24px;
+  background: #15c3d6;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+aside.sidebar footer button {
+  width: 48px;
+  height: 48px;
+  border: none;
+  background: #12afcb;
+  border-radius: 1rem;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: background-color 0.2s;
+}
+
+aside.sidebar footer button:hover {
+  background: #17d6eb;
+}
+
+.width-sidebar {
+  padding-left: 110px;
+}
+
+/* details */
+.orphanage-datails {
+  width: 65rem;
+  margin: 6.4rem auto;
+  background: white;
+  border: 1px solid #1d5a66;
+  border-radius: 2rem;
+  overflow: hidden;
+}
+
+.orphanage-datails > img {
+  width: 100%;
+  height: 30rem;
+  object-fit: cover;
+}
+
+.images {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  column-gap: 1.6rem;
+  margin: 16px 40px 0;
+}
+
+.images button {
+  border: 0;
+  background: none;
+  cursor: pointer;
+
+  height: 8.8rem;
+  cursor: pointer;
+  border-radius: 2rem;
+
+  overflow: hidden;
+
+  opacity: 0.6;
+  transition: 0.2s;
+}
+
+.images button:hover,
+.images button.active {
+  opacity: 1;
+}
+
+.images button img {
+  width: 100%;
+  height: 8.8rem;
+  object-fit: cover;
+}
+
+/* orphanage-datails-content */
+
+.orphanage-datails-content {
+  padding: 8rem;
+}
+
+.orphanage-datails-content h1 {
+  color: #4d6f80;
+  font-size: 5.4rem;
+  line-height: 1.5;
+  margin-bottom: 0.8rem;
+}
+
+.orphanage-datails-content p {
+  line-height: 1.8;
+  color: #5c8599;
+  margin-top: 2.4rem;
+}
+
+/* map */
+
+.map-container {
+  margin-top: 6.4rem;
+  background: #e6f7fb;
+  border: 1px solid #b3dae2;
+  border-radius: 2rem;
+}
+
+#mapid {
+  width: 100%;
+  height: 28rem;
+}
+
+.map-container footer {
+  padding: 2rem 0;
+
+  text-align: center;
+}
