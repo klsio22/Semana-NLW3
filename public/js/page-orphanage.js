@@ -33,3 +33,21 @@ const popup = L.popup({
 
 //create and add maker
 L.marker([-27.222633, -49.6455874], { icon }).addTo(map).bindPopup(popup);
+
+function selectImage(event) {
+  const button = event.correntTarget;
+
+  //remover todas as classes .active
+  const buttons = document.querySelectorAll(".images button");
+  buttons.forEach(removeActiveClass);
+
+  function removeActiveClass(button) {
+    button.classList.remove("active");
+  }
+
+  // selecinar imagem clicadas
+
+  //Atualizar o container imagem
+
+  //adiconar a classe .active para este botão
+}
