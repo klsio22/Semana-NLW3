@@ -35,14 +35,15 @@ const popup = L.popup({
 L.marker([-27.222633, -49.6455874], { icon }).addTo(map).bindPopup(popup);
 
 function selectImage(event) {
-  const button = event.correntTarget;
+  const button = event.currentTarget;
 
   //remover todas as classes .active
-  const buttons = document.querySelectorAll(".images button");
+  buttons = document.querySelectorAll(".images button");
   buttons.forEach(removeActiveClass);
 
   function removeActiveClass(button) {
     button.classList.remove("active");
+    console.log("Active removido com sucesso");
   }
 
   // selecinar imagem clicadas
@@ -51,3 +52,5 @@ function selectImage(event) {
 
   //adiconar a classe .active para este botão
 }
+console.log("Active não removido com sucesso");
+selectImage();
