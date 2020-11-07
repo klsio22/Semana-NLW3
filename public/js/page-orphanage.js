@@ -46,11 +46,17 @@ function selectImage(event) {
     console.log("Active removido com sucesso");
   }
 
+  console.log(button.children);
+
   // selecinar imagem clicadas
 
+  const image = button.children[0];
+  const imageContainer  = document.querySelector(".orphanage-datails > img ")
   //Atualizar o container imagem
 
+  imageContainer.src = image.src
+
   //adiconar a classe .active para este botão
+
+  button.classList.add("active");
 }
-console.log("Active não removido com sucesso");
-selectImage();
