@@ -52,20 +52,32 @@ fieldset legend {
    width: 100%;
    background: #f5f8fa;
    border: 1px solid #d3e2e5;
-   border-radius: 2rem;
+   border-radius: 1.5rem;
    color: #5c8599;
    outline: none;
 }
 
 .input-block input {
-   height: 6.4rem;
+   height: 4.4rem;
    padding: 0 1.6rem;
 }
 
-.input-block textarea{
-   height:  clamp(12rem , 16rem , 24rem);
+.input-block textarea {
+   height: clamp(12rem, 16rem, 24rem);
    resize: vertical;
-   padding:1.6rem;
-   line-height:2.8rem;
+   padding: 1.6rem;
+   line-height: 2.8rem;
+}
+
+.input-block.images button {
+   border: 1px dashed #9fd2d0;
+   width: 100%;
+   background: #f5f8fa;  
+   height: 4.4rem;
+   padding: 0 1.6rem;
+   margin-top: 2.4rem;
+   border-radius: 1.5rem;
+   
+   cursor: pointer;
 }
 

@@ -158,28 +158,3 @@ main {
   border-radius: 20px;
   color: #37c77f;
 }
-
-.primary-button {
-  margin-top: 6.4rem;
-  width: 100%;
-  height: 6.4rem;
-  border: 0;
-
-  cursor: pointer;
-  background: #3cdc8c;
-
-  border-radius: 2rem;
-  color: white;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.primary-button:hover {
-  background: #36cd82;
-}
-
-.primary-button img {
-  padding: 1.6rem;
-}
