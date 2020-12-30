@@ -61,27 +61,44 @@
 
                   <div class="input-block">
                      <label for="name">Nome</label>
-                     <input id="name" name="name">
+                     <input id="name" name="name" />
                   </div>
 
                   <div class="input-block">
-                     <label for="about">Sobre <span>Máximo de 300 caracteres</span></label>
+                     <label for="about"
+                        >Sobre <span>Máximo de 300 caracteres</span></label
+                     >
                      <textarea id="about" name="about"></textarea>
                   </div>
 
                   <div class="input-block">
                      <label for="whatsapp">Número de whatsapp</label>
-                     <input id="whatsapp" name="whatsapp">
+                     <input id="whatsapp" name="whatsapp" />
                   </div>
 
                   <div class="input-block images">
                      <label for="images">Foto</label>
 
-                     <div class="imges-upload" id="images">
-                        <input name="images" placeholder="Cole o link da foto aqui!!">
-                     </div> 
+                     <div class="images-upload" id="images">
+                        
+                        <div class="new-upload">
+                        
+                           <input name="images"
+                           placeholder="Cole o link da foto aqui!!"
+                           />
+
+                          
+                        <span>
+                           <img src="./public/img/remove-file.svg" alt="remover Foto"/>
+                        </span>
+                       </div> 
+                  
+                     </div>
                      <button type="button">
-                        <img src="./public/img/add-filles.svg" alt="nova imagem">
+                        <img
+                           src="./public/img/add-filles.svg"
+                           alt="nova imagem"
+                        />
                      </button>
                   </div>
                </fieldset>
@@ -91,33 +108,33 @@
 
                   <div class="input-block">
                      <label for="instructions">Instruções</label>
-                     <input id="instructions" name="instructions">
+                     <input id="instructions" name="instructions" />
                   </div>
-
 
                   <div class="input-block">
                      <label for="opening_hours">Horário das visitas</label>
-                     <input id="opening_hours" name="opening_hours">
+                     <input id="opening_hours" name="opening_hours" />
                   </div>
 
                   <div class="input-block">
                      <label for="open_on_weekends">Atende fim de semana?</label>
-                     <input type="hidden"
-                     id="open_on_weekends"
-                     name="open_on_weekends"
-                     value="1"
-                     >
+                     <input
+                        type="hidden"
+                        id="open_on_weekends"
+                        name="open_on_weekends"
+                        value="1"
+                     />
                   </div>
 
                   <div class="button-select">
-                     <button class="active">Sim</button> 
-                     <button>Não</button>
+                     <button class="active">Sim</button>
+                     <button class="butoon ">Não</button>
+
+
                   </div>
 
                   <button type="submit" class="primary-button">
                      Confirmar
-                  </button>
-
                </fieldset>
             </form>
          </main>
