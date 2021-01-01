@@ -3,11 +3,8 @@ form {
    margin: 6rem auto;
    background: white;
    border: 1px solid #1d5a66;
-
    border-radius: 2rem;
-
    overflow: hidden;
-
    padding: 6rem;
 }
 
@@ -62,6 +59,12 @@ fieldset legend {
    padding: 0 1.6rem;
 }
 
+.input-block input:valid,
+.input-block textarea:valid{
+   border: 1px solid #3f6451;
+}
+
+
 .input-block textarea {
    height: clamp(12rem, 16rem, 24rem);
    resize: vertical;
@@ -81,4 +84,21 @@ fieldset legend {
    cursor: pointer;
 }
 
+.new-upload {
+   position: relative;
+}
 
+.new-upload span {
+   position: absolute;
+   right: 15px;
+   bottom: 18px;
+
+   background: #ffffff;
+
+   border: 0px solid #d3e2e5;
+   box-sizing: border-box;
+   display: flex;
+   border-radius: 9px;
+   padding: .5rem;
+   cursor : pointer;
+}

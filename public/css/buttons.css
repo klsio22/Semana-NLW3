@@ -50,21 +50,3 @@
    border-radius: 0 2rem 2rem 0;
 }
 
-.new-upload {
-   position: relative;
-}
-
-.new-upload span {
-   position: absolute;
-   right: 12px;
-   bottom: 14px;
-
-   background: #ffffff;
-
-   border: 1px solid #d3e2e5;
-   box-sizing: border-box;
-   display: flex;
-   border-radius: 10px;
-   padding: 0.6rem;
-   cursor : pointer;
-}
