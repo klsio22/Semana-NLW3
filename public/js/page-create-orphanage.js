@@ -28,9 +28,11 @@ map.on("click", (event) => {
 
    const lat = event.latlng.lat;
    const lng = event.latlng.lng;
+   document.querySelector("[name=lat]").value;
+   document.querySelector("[name=log]").value;
 
    // remove icon
-   marker && map.removeLayer(marker)
+   marker && map.removeLayer(marker);
 
    //add icon layer
    marker = L.marker([lat, lng], { icon }).addTo(map);
