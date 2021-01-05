@@ -53,7 +53,7 @@
                      <div id="mapid"></div>
                      <input type="hidden" name="lat" />
                      <input type="hidden" name="lng" />
-                 
+
                      <footer>
                         <a href="#" id="select-point">
                            Clique no mapa para adicionar a localização
@@ -81,13 +81,13 @@
                   <div class="input-block images">
                      <label for="images">Foto</label>
 
-                     <div class="images-upload">
+                     <div class="images-upload" id="images">
                         <div class="new-upload">
                            <input
                               id="images"
                               name="images"
                               placeholder="Cole o link da foto aqui!!"
-                              required
+                              
                            />
                            <span>
                               <img
@@ -97,7 +97,8 @@
                            </span>
                         </div>
                      </div>
-                     <button type="button">
+
+                     <button onclick="addPhotoField()" type="button">
                         <img
                            src="./public/img/add-filles.svg"
                            alt="nova imagem"
