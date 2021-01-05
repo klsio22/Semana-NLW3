@@ -62,3 +62,24 @@ function addPhotoField(){
    container.appendChild(newFieldContainer)
 
 }
+function deleteField(event){
+   //console.log(event.currentTarget) que está disparando o evento ? span
+
+   const span = event.currentTarget
+
+   const fieldContainer = document.querySelectorAll('.new-upload')
+
+   console.log(fieldContainer.length)
+
+   if(fieldContainer.length < 2){
+      //limpar o valor do campo
+      span.parentNode.children[0].value = ""
+      return
+   }
+
+   // deletar o campo
+   console.log(span.parentNode);
+
+   span.parentNode.remove();
+
+}
