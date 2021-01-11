@@ -1,22 +1,21 @@
 //importar depedência
 const express = require("express");
-const path = require('path');
+const path = require("path");
+const pages = require('./pages.js')
 // iniando o express
 
 const server = express();
 
-// criar um rota
-//utilizando os arquivos estáticos 
-server.use(express.static('public'))
-.get("/", (request , response) => {
-   //arrow functions
-   //return response.send("Olá mundo!"); 
-   //console.log(path.join(__dirname,'views','index.html'))
+server
+   //utilizando os arquivos estáticos
+   .use(express.static('public'))
 
-   console.log(request.query)
-   return response.sendFile(path.join(__dirname , 'views', 'index.html'))
-});
+   //configurar template engine 
+   .set('views', path.join(__dirname,'views'))
+   .set('view engine','hbs')
 
+   //Rotas da aplicação
+   .get("/", pages.index)
 
 //ligar o servidor
 server.listen(5500);
