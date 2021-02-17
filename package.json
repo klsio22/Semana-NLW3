@@ -2,15 +2,19 @@
   "name": "Semana_NLW",
   "version": "1.0.0",
   "description": "Esse curso foi feito durante e a após a semana NLW 3 promovido pela rocketseat *Curso em desenvolvimento web",
-  "main": "index.js",
+  "main": "server.js",
   "dependencies": {
     "express": "^4.17.1",
     "hbs": "^4.1.1",
-    "nodemon": "^2.0.7"
+    "next": "^10.0.6",
+    "nodemon": "^2.0.7",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   },
   "devDependencies": {},
   "scripts": {
-    "start": "nodemon src/server.js"
+    "start": "nodemon src/server.js",
+    "dev": "next dev"
   },
   "repository": {
     "type": "git",
