@@ -1,0 +1,1 @@
+{"ast":null,"code":"function server() {\n  return;\n}","map":{"version":3,"sources":["/home/groot/Documentos/Semana-NLW3/pages/index.js"],"names":["server"],"mappings":"AAEA,SAASA,MAAT,GAAiB;AAEf;AAED","sourcesContent":["\n\nfunction server(){\n\n  return \n\n}"]},"metadata":{},"sourceType":"script"}

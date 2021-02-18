@@ -1,0 +1,1 @@
+{"ast":null,"code":"exports;\n\nfunction server() {\n  return;\n}","map":{"version":3,"sources":["/home/groot/Documentos/Semana-NLW3/pages/index.js"],"names":["exports","server"],"mappings":"AAAAA,OAAO;;AAEP,SAASC,MAAT,GAAiB;AAEf;AAED","sourcesContent":["exports \n\nfunction server(){\n\n  return \n\n}"]},"metadata":{},"sourceType":"script"}
